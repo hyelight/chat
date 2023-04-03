@@ -13,6 +13,21 @@
   }
   li {
     @apply px-4;
+    transition: 0.25s;
+  }
+  li:hover {
+    cursor: pointer;
+  }
+  li.mobile-nav-li {
+    padding: 10px 0;
+  }
+  li.mobile-nav-li:hover {
+    background-color: rgba(
+      var(--sub-color-r, 93),
+      var(--sub-color-g, 103),
+      var(--sub-color-b, 124),
+      0.6
+    );
   }
   button {
     @apply bg-gradient-to-r from-[var(--sub-color)] to-[var(--main-green)] py-1.5 px-5 rounded-3xl font-medium;
