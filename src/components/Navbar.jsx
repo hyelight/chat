@@ -15,10 +15,18 @@ const Navbar = () => {
         </div>
         <div className="md:flex hidden">
           <ul className="flex text-[var(--f6-color)] items-center font-medium">
-            <li>Home</li>
-            <li>Classes</li>
-            <li>Community</li>
-            <li>About</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#classes">Classes</a>
+            </li>
+            <li>
+              <a href="#community">Community</a>
+            </li>
+            <li>
+              <a href="#contactUs">Contact Us</a>
+            </li>
             <button className="ml-3">Select</button>
           </ul>
         </div>
@@ -45,11 +53,19 @@ const Navbar = () => {
           }
         >
           <ul className="font-medium">
-            <li className="mobile-nav-li text-xl my-5">Home</li>
-            <li className="mobile-nav-li text-xl my-5">Classes</li>
-            <li className="mobile-nav-li text-xl my-5">Community</li>
-            <li className="mobile-nav-li text-xl my-5">About</li>
-            <button className="m-5">Select</button>
+            <li className="mobile-nav-li text-xl my-5">
+              <a href="#home">Home</a>
+            </li>
+            <li className="mobile-nav-li text-xl my-5">
+              <a href="#classes">Classes</a>
+            </li>
+            <li className="mobile-nav-li text-xl my-5">
+              <a href="#community">Community</a>
+            </li>
+            <li className="mobile-nav-li text-xl my-5">
+              <a href="#contactUs">Contact Us</a>
+            </li>
+            <button className="mt-3 mb-7">Select</button>
           </ul>
         </div>
       </nav>
