@@ -9,7 +9,7 @@
     @apply font-['Raleway'];
   }
   h1 {
-    @apply text-4xl font-bold;
+    @apply max-sm:text-3xl max-md:text-4xl text-4xl font-bold;
   }
   li {
     @apply px-4;
@@ -32,6 +32,9 @@
   button {
     @apply bg-gradient-to-r from-[var(--sub-color)] to-[var(--main-green)] py-1.5 px-5 rounded-3xl font-medium;
   }
+  button:hover {
+    @apply bg-gradient-to-r from-[var(--main-green)] to-[var(--sub-color)];
+  }
 }
 
 :root {
@@ -39,4 +42,8 @@
   --sub-color: #5d677c;
   --nav-bg: #0f172a;
   --f6-color: #f6f6f6;
+}
+
+.main-word-text-shadow{
+    text-shadow: 4px 4px 3px #225b49;
 }

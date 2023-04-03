@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <div className="md:flex hidden">
           <ul className="flex text-[var(--f6-color)] items-center font-medium">
-            <li>Platform</li>
+            <li>Home</li>
             <li>Classes</li>
             <li>Community</li>
             <li>About</li>
@@ -45,7 +45,7 @@ const Navbar = () => {
           }
         >
           <ul className="font-medium">
-            <li className="mobile-nav-li text-xl my-5">Platform</li>
+            <li className="mobile-nav-li text-xl my-5">Home</li>
             <li className="mobile-nav-li text-xl my-5">Classes</li>
             <li className="mobile-nav-li text-xl my-5">Community</li>
             <li className="mobile-nav-li text-xl my-5">About</li>
