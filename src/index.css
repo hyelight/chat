@@ -30,7 +30,7 @@
     );
   }
   button {
-    @apply bg-gradient-to-r from-[var(--sub-color)] to-[var(--main-green)] py-1.5 px-5 rounded-3xl font-medium;
+    @apply bg-gradient-to-r from-[var(--sub-color)] to-[var(--main-green)] py-1.5 px-7 rounded-3xl font-medium;
   }
   button:hover {
     @apply bg-gradient-to-r from-[var(--main-green)] to-[var(--sub-color)];
@@ -44,6 +44,6 @@
   --f6-color: #f6f6f6;
 }
 
-.main-word-text-shadow{
-    text-shadow: 4px 4px 3px #225b49;
+.main-word-text-shadow {
+  text-shadow: 4px 4px 3px #225b49;
 }

@@ -22,7 +22,7 @@ const Navbar = () => {
               <a href="#classes">Classes</a>
             </li>
             <li>
-              <a href="#community">Community</a>
+              <a href="#community">Pricing</a>
             </li>
             <li>
               <a href="#contactUs">Contact Us</a>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <a href="#classes">Classes</a>
             </li>
             <li className="mobile-nav-li text-xl my-5">
-              <a href="#community">Community</a>
+              <a href="#community">Pricing</a>
             </li>
             <li className="mobile-nav-li text-xl my-5">
               <a href="#contactUs">Contact Us</a>
