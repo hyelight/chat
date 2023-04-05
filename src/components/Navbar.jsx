@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[var(--nav-bg)] w-full h-[90px]">
+    <div className="bg-[var(--nav-bg)] w-full h-[90px] fixed z-30">
       <nav className=" max-w-[1240px] mx-auto px-4 flex justify-between h-full items-center">
         <div>
           <h1 className="text-[var(--main-green)]">WORKOUT</h1>
@@ -23,6 +23,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#community">Pricing</a>
+            </li>
+            <li>
+              <a href="#community">Community</a>
             </li>
             <li>
               <a href="#contactUs">Contact Us</a>
@@ -61,6 +64,9 @@ const Navbar = () => {
             </li>
             <li className="mobile-nav-li text-xl my-5">
               <a href="#community">Pricing</a>
+            </li>
+            <li className="mobile-nav-li text-xl my-5">
+              <a href="#community">Community</a>
             </li>
             <li className="mobile-nav-li text-xl my-5">
               <a href="#contactUs">Contact Us</a>
