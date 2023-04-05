@@ -9,7 +9,7 @@ const Classes = () => {
   return (
     <section className="bg-[var(--nav-bg)]" id="classes">
       <h2 className="sr-only">수업</h2>
-      <div className="max-w-[1240px] mx-auto px-4 py-32 bg-[var(--nav-bg)] text-[var(--f6-color)] text-center">
+      <div className="max-w-[1240px] mx-auto px-4 pt-32 pb-16 bg-[var(--nav-bg)] text-[var(--f6-color)] text-center">
         <p className="text-3xl font-extrabold py-7 pb-14">
           CLASSES
         </p>
