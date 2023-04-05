@@ -8,7 +8,7 @@ const Pricing = () => {
       <div className="max-w-[1240px] mx-auto px-4 py-16 text-[var(--f6-color)] text-center">
         <h3 className="text-3xl font-extrabold py-7 pb-14">PREMIUM PRICING</h3>
         <div className="flex mx-auto">
-          <ul className="mt-10 flex gap-20 justify-center">
+          <ul className="mt-10 gap-16 flex justify-center m-auto flex-wrap">
             <PricingCard
               price="$15"
               tier="BRONZE"

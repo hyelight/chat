@@ -12,7 +12,7 @@ const PricingCard = ({
 }) => {
   return (
     <li
-      className={`bg-[var(--sub-color)] rounded-2xl w-1/4 py-8 relative ${rest.className}`}
+      className={`bg-[var(--sub-color)] rounded-2xl w-full sm:w-1/2 md:w-1/3 py-8 relative max-w-[360px] hover:scale-105 ${rest.className}`}
     >
       {isMostPopular && (
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[var(--main-green)] rounded-full w-3/4 p-3 py-2 text-lg font-semibold tracking-wide">
