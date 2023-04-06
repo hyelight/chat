@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/workout/static/css/main.b6f20079.css",
+    "main.js": "/workout/static/js/main.d4c902ce.js",
+    "static/media/main-bg-nature.mp4": "/workout/static/media/main-bg-nature.a46344fe38477fee765d.mp4",
+    "index.html": "/workout/index.html",
+    "main.b6f20079.css.map": "/workout/static/css/main.b6f20079.css.map",
+    "main.d4c902ce.js.map": "/workout/static/js/main.d4c902ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6f20079.css",
+    "static/js/main.d4c902ce.js"
+  ]
+}
